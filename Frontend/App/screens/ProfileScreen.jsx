@@ -18,8 +18,8 @@ const ProfileScreen = ({ onLogout }) => {
   const [autoReporting, setAutoReporting] = useState(false);
 
   const user = {
-    name: 'Ayush Singh',
-    email: 'ayush.singh@gmail.com',
+    name: 'Om',
+    email: 'om@gmail.com',
     phone: '+91 98765 43210',
     safetyScore: 98,
     totalTrips: 21,
@@ -28,8 +28,8 @@ const ProfileScreen = ({ onLogout }) => {
 
   const emergencyContacts = [
     { id: 1, name: 'Emergency Services', number: '911', type: 'emergency' },
-    { id: 2, name: 'Amit Kumar', number: '+91 9608440468', type: 'personal' },
-    { id: 3, name: 'Om Kumar', number: '+91 6299486245', type: 'personal' }
+    { id: 2, name: 'Police', number: '+91 100', type: 'police' },
+    { id: 3, name: 'Ambulance', number: '+91 102', type: 'ambulance' }
   ];
 
   const profileSections = [
