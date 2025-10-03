@@ -95,7 +95,7 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Amitshah18/smart-tourist-safety.git
+   git clone https://github.com/iamomm-hack/smart-tourist-safety.git
    cd smart-tourist-safety/Frontend/App
    ```
 
@@ -149,7 +149,7 @@ expo start -c
 {
   "expo": {
     "name": "Smart Tourist Safety",
-    "slug": "sih-2026",
+    "slug": "sih-2025",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -167,19 +167,7 @@ expo start -c
 }
 ```
 
-### Environment Variables
-Create a `.env` file in the root directory for configuration:
-```env
-# API Configuration (when backend is integrated)
-API_BASE_URL=https://your-api-endpoint.com
-BLOCKCHAIN_ENDPOINT=https://blockchain-service.com
-AI_ASSISTANT_API=https://ai-service.com
 
-# Feature Flags
-ENABLE_LOCATION_TRACKING=true
-ENABLE_BLOCKCHAIN_LOGGING=true
-DEBUG_MODE=false
-```
 
 ## 🔧 Key Components
 
@@ -246,7 +234,7 @@ We welcome contributions to improve the Smart Tourist Safety app! Here's how you
 
 ### Technical Support
 - **Email**: support@smarttouristsafety.com
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Amitshah18/smart-tourist-safety/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/iamomm-hack/smart-tourist-safety/issues)
 - **Documentation**: Check this README for common solutions
 
 ### Emergency Resources
